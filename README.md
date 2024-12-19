@@ -16,3 +16,9 @@ Acenda, apague ou quebre a lâmpada.
 Controle o semáforo entre vermelho, amarelo, verde e modo automático clicando nos botões.
 
  ![Lampada apagada](003-Semaforo/img/semaforo.PNG) 
+
+## 4. Slideshow
+
+Visualize imagens utilizando os botões de previous ou next
+
+ ![Lampada apagada](004-Slideshow/img/slideshow.PNG)
