@@ -1,5 +1,5 @@
 # mini_projetos_javaScript
- Conhecendo e entendendo JavaSccript
+ Conhecendo e entendendo JavaSccript.
 
  ## 1. Calculadora de IMC
 
@@ -9,7 +9,7 @@
 
 Acenda, apague ou quebre a lâmpada.
 
- ![Lampada apagada](002-Lampada/img/apagado.PNG) ![Lampada apagada](002-Lampada/img/ligado.PNG) ![Lampada apagada](002-Lampada/img/quebrada.PNG)
+ ![Lampada apagada](002-Lampada/img/apagado.PNG) ![Lampada ligada](002-Lampada/img/ligado.PNG) ![Lampada quebrada](002-Lampada/img/quebrada.PNG)
 
 ## 3. Semáforo
 
@@ -19,6 +19,12 @@ Controle o semáforo entre vermelho, amarelo, verde e modo automático clicando 
 
 ## 4. Slideshow
 
-Visualize imagens utilizando os botões de previous ou next
+Visualize imagens utilizando os botões de previous ou next.
 
- ![Lampada apagada](004-Slideshow/img/slideshow.PNG)
+ ![Slideshow](004-Slideshow/img/slideshow.PNG)
+
+## 5. Drum Kit
+
+Toque bateria com as teclas disponíveis.
+
+ ![Drum Kit](005-DrumKit/img/drumkit.PNG)
