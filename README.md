@@ -28,3 +28,9 @@ Visualize imagens utilizando os botões de previous ou next.
 Toque bateria com as teclas disponíveis.
 
  ![Drum Kit](005-DrumKit/img/drumkit.PNG)
+
+## 6. Calculadora
+
+Faça cálculos simples usando o mouse ou o teclado.
+
+ ![Calculadora](006-Calculadora/img/calculadora.PNG)
