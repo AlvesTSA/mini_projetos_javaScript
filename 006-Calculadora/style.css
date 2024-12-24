@@ -7,6 +7,7 @@
 body{
     background-color: whitesmoke;
     padding: 90px 0;
+    user-select: none;
 }
 
 .calculator {
