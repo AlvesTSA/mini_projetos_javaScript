@@ -34,3 +34,9 @@ Toque bateria com as teclas disponíveis.
 Faça cálculos simples usando o mouse ou o teclado.
 
  ![Calculadora](006-Calculadora/img/calculadora.PNG)
+
+## 7. Count Down
+
+Faça uma contagem regressiva do seu evento.
+
+ ![Count Down](007-Countdown/img/countdown.PNG)
