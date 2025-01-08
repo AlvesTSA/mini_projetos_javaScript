@@ -40,3 +40,9 @@ Faça cálculos simples usando o mouse ou o teclado.
 Faça uma contagem regressiva do seu evento.
 
  ![Count Down](007-Countdown/img/countdown.PNG)
+
+## 8. To Do List
+
+Faça uma lista de suas tarefas para não esquecer.
+
+ ![To Do List](008-To_do_list/img/todolist.PNG)
