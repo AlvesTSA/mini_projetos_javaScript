@@ -47,8 +47,14 @@ Faça uma lista de suas tarefas para não esquecer.
 
  ![To Do List](008-To_do_list/img/todolist.PNG)
 
- ## 9. Crud
+## 9. Crud
 
 Criar, ler, atualizar e excluir.
 
  ![Crud](009-Crud/img/crud.PNG)
+
+## 10. Conversor de base numérica
+
+Converta números entre binário, decimal, octal e hexadecimal.
+
+ ![CBN](010-Conversor_de_base_numerica/img/cbn.PNG)

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="cbn.js" defer></script>
+    <title>CBN</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Conversor de base numérica</h1>
+    </header>
+    <main>
+        <div class="container-form">
+            <form>
+                <label for="selectBN">Escolha uma base numérica:</label>
+                <select id="selectBN" name="bn">
+                    <option value="2">Binário</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                </select>
+                Informe o valor a ser convertido:
+                <input type="text" id="number">
+                <button type="button" id="button" class="button">Converter</button>
+            </form>
+        </div>
+        <div class="bn">
+            <div class="key" >BINÁRIO</div><div class="value" id="binary"></div>
+        </div>
+        <div class="bn">
+            <div class="key" >OCTAL</div><div class="value" id="octal"></div>
+        </div>
+        <div class="bn">
+            <div class="key">DECIMAL</div><div class="value" id="decimal"></div>
+        </div>
+        <div class="bn">
+            <div class="key">HEXADECIMAL</div><div class="value" id="hexadecimal"></div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; Thiago Silva Alves
+    </footer>
+</body>
+
+</html>
