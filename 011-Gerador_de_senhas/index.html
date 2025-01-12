@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de Senhas</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="gk.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+              <div class="title"> Gerador de Senhas </div>
+              <div class="input">
+                  <label>Número total de caracteres na senha</label>
+                  <input type="number" id="length">
+              </div>
+              <div class="container-checkbox">
+                <div class="content-check">
+                    <input class="check" type="checkbox" name="selectC" value="check1" id="check1">
+                    <label for="check1">ABC letras maiúsculas</label>
+                </div>
+                <div class="content-check">
+                    <input class="check" type="checkbox" name="selectC" value="check2" id="check2">
+                    <label for="check2">abc letras minúsculas</label>
+                </div>
+                <div class="content-check">
+                    <input class="check" type="checkbox" name="selectC" value="check3" id="check3">
+                    <label for="check3">123 números</label>
+                </div>
+                <div class="content-check">
+                    <input class="check" type="checkbox" name="selectC" value="check4" id="check4">
+                    <label for="check4">@#$ caracteres especiais</label>
+                </div>
+              </div>
+              <button id='gKey'>Gerar senha</button>
+              <button id='copy'>Copiar</button>
+              <div class="result" id='password'></div>
+            </div>
+          </main>
+    </body>
+</html>

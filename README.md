@@ -58,3 +58,9 @@ Criar, ler, atualizar e excluir.
 Converta números entre binário, decimal, octal e hexadecimal.
 
  ![CBN](010-Conversor_de_base_numerica/img/cbn.PNG)
+
+## 11. Gerador de senhas
+
+Gere senhas utilizando combinações de caracteres.
+
+ ![Gerador de senha](011-Gerador_de_senhas/img/gk.PNG)
