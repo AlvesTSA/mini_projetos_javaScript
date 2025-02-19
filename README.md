@@ -64,3 +64,9 @@ Converta números entre binário, decimal, octal e hexadecimal.
 Gere senhas utilizando combinações de caracteres.
 
  ![Gerador de senha](011-Gerador_de_senhas/img/gk.PNG)
+
+## 12. Luzes de Natal
+
+Monte um pisca pisca de natal configurando as propriedades das luzes, tamanho, cor, frequencia do pisca e intensidade da luz.
+
+ ![Luzes de Natal](012-Luzes_de_natal/img/luzes.PNG)

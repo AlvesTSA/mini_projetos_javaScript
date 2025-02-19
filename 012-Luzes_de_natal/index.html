@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luzes de Natal</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- <script src="app2.js" defer></script> -->
+        <script type="module" src="js/storage.js"></script>
+        <script type="module" src="js/ui.js"></script>
+        <script type="module" src="js/utils.js"></script>
+        <script type="module" src="js/lightController.js"></script>
+        <script type="module" src="app.js"></script>
+
+    </head>
+    <body>
+        <div class="lights-container" id="lights-container">
+        </div>
+        <div class="panel">
+          <h2>Configurações gerais</h2>
+          <div class="form-group">
+            <label for="selectProject">Escolha um projeto salvo ou comece um novo</label>
+            <select id="selectProject">
+              <option value="" selected disabled>Novo projeto</option>
+            </select>
+            <button class="deletebtn" id="delete">Excluir projeto</button>
+          </div>
+          <div class="form-group">
+            <label for="lightColorPanel">Cor da Luz</label>
+            <input type="color" id="lightColorPanel" data-source="panel" value="#ffffff">
+          </div>
+          <div class="form-group">
+              <label for="lightSizePanel">Tamanho da Luz (px)</label>
+              <input type="number" id="lightSizePanel" data-source="panel" name="lightSize" min="1" max="80" value="50">
+          </div>
+          <div class="form-group">
+              <label for="lightIntensityPanel">Intensidade da Luz (0-50)</label>
+              <input type="number" id="lightIntensityPanel" data-source="panel" min="0" max="50" step="10" value="50">
+          </div>
+          <div class="form-group">
+              <label for="blinkSpeedPanel">Velocidade do Piscar (ms)</label>
+              <input type="number" id="blinkSpeedPanel" data-source="panel" min="100" step="100" value="500">
+          </div>
+  
+          <div class="form-group">
+              <label for="selectQrow">Escolha a quantidade de linhas</label>
+              <select id="selectQrow">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+              </select>
+          </div>
+          <div class="buttons">
+              <button class="cancel" id="buttonCancel">Cancelar</button>
+              <button class="save" id="buttonSave">Salvar</button>
+              <button class="insert" id="buttonQrow">Inserir</button>
+              <button class="turn-on" id="turnOnOff">Ligar</button>
+          </div>
+        </div>
+        <!-- modal -->
+        <div class="modal" id="lightModal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Editar Propriedades da Luz</h2>
+                <button class="btn-close" id="btnCloseModal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <!-- Cor da luz -->
+                <div class="form-control">
+                  <label for="lightColor">Cor da Luz</label>
+                    <input type="color" id="lightColor" data-source="modal" name="lightColor" value="#ffffff">
+                </div>
+        
+                <!-- Tamanho da luz -->
+                <div class="form-control">
+                  <label for="lightSize">Tamanho da Luz (px)</label>
+                  <input type="number" id="lightSize" data-source="modal" name="lightSize" min="1" max="80" value="50">
+                </div>
+        
+                <!-- Intensidade da luz -->
+                <div class="form-control">
+                  <label for="lightIntensity">Intensidade da Luz (0-50)</label>
+                  <input type="number" id="lightIntensity" data-source="modal" name="lightIntensity" min="0" max="50" step="10" value="50">
+                </div>
+        
+                <!-- Velocidade do piscar -->
+                <div class="form-control">
+                  <label for="blinkSpeed">Velocidade do Piscar (ms)</label>
+                  <input type="number" id="blinkSpeed" data-source="modal" name="blinkSpeed" min="100" step="100" value="500">
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
